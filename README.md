@@ -21,11 +21,11 @@ Instead of relying on synthetic or toy data, the project is built using well-est
    A 3-page interactive Power BI dashboard (`.pbix`) built to translate these complex metrics into clear commercial insights, featuring risk scatter plots, retention trends, and performance drivers.
 
 ### Repository Structure:
-* `sql/` — BigQuery schemas, raw data ingestion scripts, and analytical views.
-* `ml_pipeline/` — Python scripts for BG/NBD & Gamma-Gamma predictive modeling.
-* `ab_testing/` — Statistical A/B testing scripts and evaluation logic.
-* `power_bi/` — Executive PBIX dashboard file.
-* `presentation/` — C-level strategic PDF presentation deck.
+* `sql/` - BigQuery schemas, raw data ingestion scripts, and analytical views.
+* `ml_pipeline/` - Python scripts for BG/NBD & Gamma-Gamma predictive modeling.
+* `ab_testing/` - Statistical A/B testing scripts and evaluation logic.
+* `power_bi/` - Executive PBIX dashboard file.
+* `presentation/` - C-level strategic PDF presentation deck.
 
 ### How to Review:
 You can explore the SQL and Python code directly within their respective directories. For the dashboard, download the `.pbix` file from the `power_bi/` folder and open it in Power BI Desktop.
